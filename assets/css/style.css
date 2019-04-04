@@ -243,7 +243,9 @@ nav a:hover{
 		border-radius:5px;
 	}
 	
-}
+    iframe{
+        width:210%;
+    }
 
 
 
