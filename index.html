@@ -1,0 +1,137 @@
+<!doctype html>
+<html>
+	<head>
+	<title>Mobile CSS</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+	<header>
+		<h1 id="logo">My site</h1>
+		<div id="mobilenav"><a href="#">&#9776;</a></div>
+		<nav>
+			<ul>
+				<li><a href="index.html">home</a></li>
+				<li><a href="about.html">about</a></li>
+				<li><a href="contact.html">contact</a></li>
+			</ul>
+		</nav>
+             
+	</header>
+    
+    <div id="jab">
+		<div>
+			<h1>My Dream Place...</h1>
+            <h2>Grand Canyon</h2>
+            <br>
+			<p><a href="https://www.google.com/maps/place/Grand+Canyon+National+Park/@36.0910982,-113.4049521,9z/data=!3m1!4b1!4m5!3m4!1s0x873312ae759b4d15:0x1f38a9bec9912029!8m2!3d36.1069652!4d-112.1129972" class="click">map</a>
+            <style>
+                
+.click{
+    display: inline-block;
+    background: #FF8C00;
+    color: #333;
+    padding: 10px 30px 10px 30px;
+    text-decoration: none;
+    font-size: 18px;
+    
+}
+
+                
+            </style>
+            </p>
+		</div>
+	</div>
+     
+    <div class="container">
+        
+		<div class="row">
+			<div class="col c25 hero">
+				<h2>kalibab trail</h2>
+				<img src="assets/img/gc2.jpg">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+					incididunt ut labore et dolore magna aliqua. </p>
+			</div>
+			<div class="col c25 honey">
+				<h2>Sedona</h2>
+                <img src="assets/img/gc4.jpg">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+					incididunt ut labore et dolore magna aliqua. </p>
+			</div>
+			<div class="col c25 flower">
+				<h2>Bryce canyon</h2>
+                <img src="assets/img/gc5.jpg">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+					incididunt ut labore et dolore magna aliqua. </p>
+			</div>
+            <div class="col c25 sweet">
+				<h2>Monument valley</h2>
+                <img src="assets/img/gc1.jpg">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+					incididunt ut labore et dolore magna aliqua. </p>
+			</div>
+		</div>
+	</div>
+    
+    <div class="container2">
+        
+		<div class="row2">
+			<div class="col c30">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d825357.372456829!2d-113.40357253802743!3d36.09221465840675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x873312ae759b4d15%3A0x1f38a9bec9912029!2sGrand+Canyon+National+Park!5e0!3m2!1sen!2sus!4v1553979058397!5m2!1sen!2sus" width="565" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+			</div>
+			<div class="col c30">
+				<p><br>Contact arizona grand canyon park office</p>
+            <label>Name<br>
+					<input type="text" name="name">
+				</label>
+				<br>
+				<label>Email<br>
+					<input type="email" name="eml">
+				</label>
+				<br>
+				<label>Message<br>
+					<textarea name="msg"></textarea>
+				</label>
+				<br>
+				<input type="submit" value="SEND" class="btn">
+        
+			</div>
+		</div>
+	</div>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script>
+		$('#mobilenav').click(function() {
+			$('nav').toggle();
+		});
+
+		$(window).resize(function() {
+			if (window.innerWidth > 575) {
+				$('nav').show();
+			};
+		});
+	</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
